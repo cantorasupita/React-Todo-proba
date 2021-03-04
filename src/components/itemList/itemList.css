@@ -1,0 +1,50 @@
+
+.itemList {
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.itemList .list {
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spn-btn button {
+    margin-left: 5px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.spn-btn .btn-del {
+    background-color: rgb(240, 0, 20);
+}
+.spn-btn .btn-imp {
+    background-color: rgb(22, 189, 72);
+}
+
+.spn-btn .btn-update {
+    background-color: rgb(123, 61, 236);
+}
+
+.spn-btn .btn-done {
+    background-color: rgb(236, 166, 61);
+}
+
+
+.doneClass {
+    text-decoration: line-through;
+}
+
+.importClass {
+    font-weight: 500;
+    color:rgb(57, 68, 228);
+
+}
